@@ -8,8 +8,9 @@ from tmdbwrapper import TV
 
 
 info = TV.info(TV(1234))
-for key in info:
-    print("{} - {}".format(key, info[key]))
+print(info.items())
+#for key in info:
+ #   print("{} - {}".format(key, info[key]))
 #    print("{} -> {}".format(key, val))
 
 
